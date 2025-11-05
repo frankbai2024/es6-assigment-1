@@ -1,0 +1,29 @@
+.site-header {
+  text-align: center;
+  padding: 0.1rem;
+}
+
+li {
+  list-style-type: none;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: blue;
+  color: white;
+}
+
+.section-frame {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem 0;
+  display: flex;
+  /* 根据宽度自动换行 */
+  flex-wrap: wrap;
+}
+section {
+  border: solid 1px #333;
+  border-radius: 5px;
+}
